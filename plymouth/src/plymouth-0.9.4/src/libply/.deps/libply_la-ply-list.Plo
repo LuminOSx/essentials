@@ -7,7 +7,7 @@ libply_la-ply-list.lo: ply-list.c /usr/include/stdc-predef.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
@@ -69,7 +69,7 @@ ply-list.h:
 
 /usr/include/bits/libc-header-start.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h:
 
 /usr/include/bits/waitflags.h:
 

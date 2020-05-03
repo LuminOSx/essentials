@@ -11,7 +11,7 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
  /usr/include/bits/types/struct_iovec.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h \
  /usr/include/linux/falloc.h /usr/include/bits/types/struct_timespec.h \
  /usr/include/bits/endian.h /usr/include/bits/endianness.h \
  /usr/include/bits/stat.h /usr/include/bits/fcntl2.h /usr/include/math.h \
@@ -38,16 +38,16 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
  /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h \
  /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
@@ -89,13 +89,13 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
  /usr/include/bits/unistd_ext.h /usr/include/wchar.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/wchar2.h /usr/include/values.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/syslimits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/float.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/float.h \
  libply-splash-core/ply-boot-splash-plugin.h libply/ply-buffer.h \
  libply/ply-event-loop.h libply-splash-core/ply-keyboard.h \
  libply-splash-core/ply-renderer.h libply/ply-list.h \
@@ -155,7 +155,7 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
 
 /usr/include/bits/types/struct_iovec.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h:
 
 /usr/include/linux/falloc.h:
 
@@ -253,11 +253,11 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
 
 /usr/include/bits/signal_ext.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h:
 
 /usr/include/stdio.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
@@ -281,7 +281,7 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
 
 /usr/include/bits/stdio2.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -443,9 +443,9 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
 
 /usr/include/values.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -461,7 +461,7 @@ plymouthd-plugin.o: plugins/splash/details/plugin.c \
 
 /usr/include/bits/uio_lim.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/float.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/float.h:
 
 libply-splash-core/ply-boot-splash-plugin.h:
 

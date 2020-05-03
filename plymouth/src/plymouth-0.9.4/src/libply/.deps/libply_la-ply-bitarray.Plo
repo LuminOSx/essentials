@@ -1,6 +1,6 @@
 libply_la-ply-bitarray.lo: ply-bitarray.c /usr/include/stdc-predef.h \
  ../../config.h ply-bitarray.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -9,12 +9,12 @@ libply_la-ply-bitarray.lo: ply-bitarray.c /usr/include/stdc-predef.h \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
  /usr/include/bits/stdint-uintn.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h \
  /usr/include/assert.h /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
@@ -39,7 +39,7 @@ libply_la-ply-bitarray.lo: ply-bitarray.c /usr/include/stdc-predef.h \
 
 ply-bitarray.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -71,7 +71,7 @@ ply-bitarray.h:
 
 /usr/include/bits/stdint-uintn.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h:
 
 /usr/include/assert.h:
 
@@ -91,7 +91,7 @@ ply-bitarray.h:
 
 /usr/include/stdlib.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h:
 
 /usr/include/bits/waitflags.h:
 

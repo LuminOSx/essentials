@@ -7,7 +7,7 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
  /usr/include/bits/timesize.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/sys/socket.h \
  /usr/include/bits/types/struct_iovec.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h \
  /usr/include/bits/socket.h /usr/include/sys/types.h \
  /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
  /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
@@ -51,10 +51,10 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/bits/strings_fortified.h \
  /usr/include/bits/string_fortified.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
@@ -79,13 +79,13 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
  /usr/include/asm-generic/int-ll64.h /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h /usr/include/values.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/syslimits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/float.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/float.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
@@ -137,7 +137,7 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
 
 /usr/include/bits/types/struct_iovec.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h:
 
 /usr/include/bits/socket.h:
 
@@ -303,9 +303,9 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
 
 /usr/include/bits/string_fortified.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -313,7 +313,7 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
 
 /usr/include/stdio.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
@@ -405,9 +405,9 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
 
 /usr/include/values.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -423,7 +423,7 @@ frame_buffer_la-plugin.lo: plugin.c /usr/include/stdc-predef.h \
 
 /usr/include/bits/uio_lim.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/float.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/float.h:
 
 /usr/include/unistd.h:
 

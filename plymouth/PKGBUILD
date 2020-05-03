@@ -118,6 +118,6 @@ package() {
   install -Dm644 "$pkgdir/usr/share/plymouth/plymouthd.defaults" "$pkgdir/etc/plymouth/plymouthd.conf"
   sed -i -e 's/Theme=.*/Theme=beat/g' $pkgdir/etc/plymouth/plymouthd.conf
   sed -i -e 's/ShowDelay=.*/ShowDelay=1/g' $pkgdir/etc/plymouth/plymouthd.conf
-  cp -r $HOME/archlinux/pkgs/plymouth/beat $pkgdir/usr/share/plymouth/themes
-  cp -r $HOME/archlinux/pkgs/plymouth/charge $pkgdir/usr/share/plymouth/themes
+  cp -r beat $pkgdir/usr/share/plymouth/themes
+  cp -r charge $pkgdir/usr/share/plymouth/themes
 }

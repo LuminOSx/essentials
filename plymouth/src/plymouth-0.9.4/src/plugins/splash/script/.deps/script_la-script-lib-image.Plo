@@ -2,8 +2,8 @@ script_la-script-lib-image.lo: script-lib-image.c \
  /usr/include/stdc-predef.h ../../../../config.h \
  ../../../libply-splash-graphics/ply-image.h \
  ../../../libply-splash-core/ply-pixel-buffer.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -14,7 +14,7 @@ script_la-script-lib-image.lo: script-lib-image.c \
  /usr/include/bits/stdint-uintn.h ../../../libply/ply-rectangle.h \
  ../../../libply/ply-utils.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd.h \
  /usr/include/bits/unistd_ext.h /usr/include/sys/types.h \
@@ -52,7 +52,7 @@ script_la-script-lib-image.lo: script-lib-image.c \
  /usr/include/bits/strings_fortified.h \
  /usr/include/bits/string_fortified.h ../../../libply/ply-list.h \
  ../../../libply-splash-core/ply-terminal.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h \
  ../../../libply/ply-logger.h /usr/include/errno.h \
  /usr/include/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
@@ -80,9 +80,9 @@ script_la-script-lib-image.lo: script-lib-image.c \
 
 ../../../libply-splash-core/ply-pixel-buffer.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -124,7 +124,7 @@ script_la-script-lib-image.lo: script-lib-image.c \
 
 /usr/include/bits/environments.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h:
 
 /usr/include/bits/confname.h:
 
@@ -258,7 +258,7 @@ script_la-script-lib-image.lo: script-lib-image.c \
 
 ../../../libply-splash-core/ply-terminal.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h:
 
 ../../../libply/ply-logger.h:
 

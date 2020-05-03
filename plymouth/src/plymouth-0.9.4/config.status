@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/leandromqrs/archlinux/pkgs/plymouth/src/plymouth-0.9.4'
+ac_pwd='/home/leandromqrs/Documentos/Programação/Git/packages/plymouth/src/plymouth-0.9.4'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -678,7 +678,7 @@ postuninstall_cmds=''
 finish_cmds='PATH="\$PATH:/sbin" ldconfig -n $libdir'
 finish_eval=''
 hardcode_into_libs='yes'
-sys_lib_search_path_spec='/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1 /usr/lib /lib '
+sys_lib_search_path_spec='/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0 /usr/lib /lib '
 configure_time_dlsearch_path='/lib64 /usr/lib64 /lib /usr/lib /usr/lib/libfakeroot /usr/lib32 /usr/lib/openmpi '
 configure_time_lt_sys_library_path=''
 hardcode_action='immediate'
@@ -918,8 +918,8 @@ S["GTK_CFLAGS"]=""
 S["ENABLE_GTK_FALSE"]=""
 S["ENABLE_GTK_TRUE"]="#"
 S["PANGO_LIBS"]="-lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lcairo "
-S["PANGO_CFLAGS"]="-I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/lib/libffi-3.2.1/include -I/usr/include/harfbuzz -I/usr/include/"\
-"fribidi -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 "
+S["PANGO_CFLAGS"]="-I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng1"\
+"6 -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 "
 S["ENABLE_PANGO_FALSE"]="#"
 S["ENABLE_PANGO_TRUE"]=""
 S["UDEVADM"]="/usr/bin/udevadm"
@@ -990,12 +990,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/leandromqrs/archlinux/pkgs/plymouth/src/plymouth-0.9.4/build-tools/install-sh"
-S["MAKEINFO"]="${SHELL} /home/leandromqrs/archlinux/pkgs/plymouth/src/plymouth-0.9.4/build-tools/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/leandromqrs/archlinux/pkgs/plymouth/src/plymouth-0.9.4/build-tools/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/leandromqrs/archlinux/pkgs/plymouth/src/plymouth-0.9.4/build-tools/missing automake-1.15"
-S["AUTOCONF"]="${SHELL} /home/leandromqrs/archlinux/pkgs/plymouth/src/plymouth-0.9.4/build-tools/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/leandromqrs/archlinux/pkgs/plymouth/src/plymouth-0.9.4/build-tools/missing aclocal-1.15"
+S["install_sh"]="${SHELL} /home/leandromqrs/Documentos/Programação/Git/packages/plymouth/src/plymouth-0.9.4/build-tools/install-sh"
+S["MAKEINFO"]="${SHELL} /home/leandromqrs/Documentos/Programação/Git/packages/plymouth/src/plymouth-0.9.4/build-tools/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/leandromqrs/Documentos/Programação/Git/packages/plymouth/src/plymouth-0.9.4/build-tools/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/leandromqrs/Documentos/Programação/Git/packages/plymouth/src/plymouth-0.9.4/build-tools/missing automake-1.15"
+S["AUTOCONF"]="${SHELL} /home/leandromqrs/Documentos/Programação/Git/packages/plymouth/src/plymouth-0.9.4/build-tools/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/leandromqrs/Documentos/Programação/Git/packages/plymouth/src/plymouth-0.9.4/build-tools/missing aclocal-1.15"
 S["VERSION"]="0.9.4"
 S["PACKAGE"]="plymouth"
 S["CYGPATH_W"]="echo"

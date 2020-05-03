@@ -1,7 +1,7 @@
 libply_splash_core_la-ply-renderer.lo: ply-renderer.c \
  /usr/include/stdc-predef.h ../../config.h ply-renderer.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -11,7 +11,7 @@ libply_splash_core_la-ply-renderer.lo: ply-renderer.c \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
  /usr/include/bits/stdint-uintn.h ../libply/ply-buffer.h \
  /usr/include/string.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/bits/strings_fortified.h \
  /usr/include/bits/string_fortified.h /usr/include/sys/types.h \
@@ -33,7 +33,7 @@ libply_splash_core_la-ply-renderer.lo: ply-renderer.c \
  /usr/include/bits/unistd_ext.h ../libply/ply-list.h ply-pixel-buffer.h \
  ../libply/ply-rectangle.h ../libply/ply-utils.h ../libply/ply-region.h \
  ../libply/ply-list.h ../libply/ply-rectangle.h ../libply/ply-utils.h \
- ply-terminal.h /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h \
+ ply-terminal.h /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h \
  ../libply/ply-event-loop.h /usr/include/signal.h \
  /usr/include/bits/signum.h /usr/include/bits/signum-generic.h \
  /usr/include/bits/types/sig_atomic_t.h \
@@ -78,9 +78,9 @@ libply_splash_core_la-ply-renderer.lo: ply-renderer.c \
 
 ply-renderer.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdbool.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdbool.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdint.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -116,7 +116,7 @@ ply-renderer.h:
 
 /usr/include/string.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h:
 
 /usr/include/bits/types/locale_t.h:
 
@@ -206,7 +206,7 @@ ply-pixel-buffer.h:
 
 ply-terminal.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include/stdarg.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stdarg.h:
 
 ../libply/ply-event-loop.h:
 
