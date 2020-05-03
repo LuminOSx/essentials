@@ -4,6 +4,3 @@
 [submodule "yay"]
 	path = yay
 	url = https://aur.archlinux.org/yay.git
-[submodule "plymouth"]
-	path = plymouth
-	url = https://aur.archlinux.org/plymouth.git
