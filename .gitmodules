@@ -2,5 +2,5 @@
 	path = gamemode
 	url = https://aur.archlinux.org/gamemode.git
 [submodule "yay"]
-    path = yay
-    url = https://aur.archlinux.org/yay.git
+	path = yay
+	url = https://aur.archlinux.org/yay.git
