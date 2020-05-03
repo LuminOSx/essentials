@@ -10,18 +10,6 @@ DIR="$(pwd)"
 PR10="yay"
 PR11="plymouth"
 
-## Banner
-echo
-echo -e $B" ┌──────────────────────────────────┐"
-echo -e $B" │   $R┏━┓┏━┓┏━╸╻ ╻   ╻  ╻┏┓╻╻ ╻╻ ╻   $B│"
-echo -e $B" │   $R┣━┫┣┳┛┃  ┣━┫   ┃  ┃┃┗┫┃ ┃┏╋┛   $B│"
-echo -e $B" │   $R╹ ╹╹┗╸┗━╸╹ ╹   ┗━╸╹╹ ╹┗━┛╹ ╹   $B│"
-echo -e $B" └──────────────────────────────────┘"
-echo -e $W"  By:$C Aditya Shakya"
-echo -e $W"  Github:$C @adi1090x"
-echo -e $W"  Reddit:$C @adi1090x"
-echo
-
 ## Setting Things Up
 echo
 echo -e $Y" [*] Installing Dependencies - "$C
@@ -40,33 +28,6 @@ echo
 cd $DIR/pkgs
 
 echo -e $Y" [*] Downloading AUR Packages - "$C
-echo
-echo -e $Y" [*] Cloning aurafetch-git - "$C
-git clone https://aur.archlinux.org/aurafetch-git.git --depth 1 $PR1
-echo
-echo -e $Y" [*] Cloning compton-tryone-git - "$C
-git clone https://aur.archlinux.org/compton-tryone-git.git --depth 1 $PR2
-echo
-echo -e $Y" [*] Cloning i3lock-fancier-git - "$C
-git clone https://aur.archlinux.org/i3lock-fancier-git.git --depth 1 $PR3
-echo
-echo -e $Y" [*] Cloning ksuperkey - "$C
-git clone https://aur.archlinux.org/ksuperkey.git --depth 1 $PR4
-echo
-echo -e $Y" [*] Cloning networkmanager-dmenu-git - "$C
-git clone https://aur.archlinux.org/networkmanager-dmenu-git.git --depth 1 $PR5
-echo
-#echo -e $Y" [*] Cloning obmenu-generator - "$C
-#git clone https://aur.archlinux.org/obmenu-generator.git --depth 1 $PR6
-#echo
-echo -e $Y" [*] Cloning perl-linux-desktopfiles - "$C
-git clone https://aur.archlinux.org/perl-linux-desktopfiles.git --depth 1 $PR7
-echo
-#echo -e $Y" [*] Cloning polybar - "$C
-#git clone https://aur.archlinux.org/polybar.git --depth 1 $PR8
-#echo
-echo -e $Y" [*] Cloning rxvt-unicode-pixbuf - "$C
-git clone https://aur.archlinux.org/rxvt-unicode-pixbuf.git --depth 1 $PR9
 echo
 echo -e $Y" [*] Cloning yay - "$C
 git clone https://aur.archlinux.org/yay.git --depth 1 $PR10
