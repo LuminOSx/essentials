@@ -8,12 +8,12 @@ Y='\033[1;33m'
 
 DIR="$(pwd)"
 
-PACKAGES=("yay" "plymouth" "gamemode")
+PACKAGES=("yay" "plymouth" "gamemode" "calamares")
 
 ## Cloning AUR Packages
 echo -e $Y" [*] Updating AUR Packages - "$C
 echo
-git submodule update
+git submodule update --remote
 
 ## Building AUR Packages
 mkdir -p $DIR/localrepo/i686 $DIR/localrepo/x86_64
@@ -22,10 +22,10 @@ echo -e $Y" [*] Building AUR Packages - "$C
 echo
 
 for PKG in ${PACKAGES[@]}; do
-  echo -e $Y" [*] Building $PKG - "$C
-  cd $PKG && makepkg -s
-  mv *.pkg.tar.xz ../localrepo/x86_64
-  cd $DIR
+    echo -e $Y" [*] Building $PKG - "$C
+    cd $PKG && makepkg -cfs
+    mv *.pkg.tar.xz ../localrepo/x86_64
+    cd $DIR
 done
 
 echo
@@ -37,4 +37,4 @@ cd $DIR/localrepo/x86_64
 echo -e $Y" [*] Setting Up Local Repository - "$C
 echo
 
-repo-add essentials.db.tar.gz plymouth*.pkg.tar.xz yay*.pkg.tar.xz gamemode*.pkg.tar.xz
+repo-add essentials.db.tar.gz plymouth*.pkg.tar.xz yay*.pkg.tar.xz gamemode*.pkg.tar.xz calamares*.pkg.tar.xz
