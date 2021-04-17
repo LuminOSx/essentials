@@ -8,7 +8,7 @@ Y='\033[1;33m'
 
 DIR="$(pwd)"
 
-PACKAGES=("yay" "plymouth" "gamemode" "calamares")
+PACKAGES=("plymouth")
 
 ## Cloning AUR Packages
 echo -e $Y" [*] Updating AUR Packages - "$C
@@ -37,4 +37,5 @@ cd $DIR/localrepo/x86_64
 echo -e $Y" [*] Setting Up Local Repository - "$C
 echo
 
-repo-add essentials.db.tar.gz plymouth*.pkg.tar.xz yay*.pkg.tar.xz gamemode*.pkg.tar.xz calamares*.pkg.tar.xz
+repo-add essentials.db.tar.gz plymouth*.pkg.tar.xz
+#calamares*.pkg.tar.xz
