@@ -1,41 +1,37 @@
-#colors
-R='\033[1;31m'
-B='\033[1;34m'
-C='\033[0;36m'
-G='\033[1;32m'
-W='\033[1;37m'
-Y='\033[1;33m'
+#!/usr/bin/env bash
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# build.sh
+#
+# The main script that runs the build
+#
 
-DIR="$(pwd)"
+base_path="$( cd "$( dirname "$0" )" && pwd )"
+arch=('i686' 'x86_64')
+packages=('plymouth')
 
-PACKAGES=("plymouth")
+_config_packages() {
+    mkdir -p "${base_path}/localrepo/i686 ${base_path}/localrepo/x86_64"
+}
 
-## Cloning AUR Packages
-echo -e $Y" [*] Updating AUR Packages - "$C
-echo
-git submodule update --remote
+_build_packages() {
+    for pkg in "${packages[@]}"; do
+        echo -e "[build.sh] building ${pkg} "
+        cd "${pkg} && makepkg -cfs"
+        mv *.pkg.tar.zst ../localrepo/x86_64
+        cd "${base_path}"
+    done
+}
 
-## Building AUR Packages
-mkdir -p $DIR/localrepo/i686 $DIR/localrepo/x86_64
+_finish() {
+    cd "${base_path}/localrepo/x86_64"
+    for pkg in "${packages[@]}"; do
+        repo_packages="${repo_packages} ${pkg}*.pkg.tar.zst "
+    done
+    repo-add essentials.db.tar.gz ${repo_packages}
+}
 
-echo -e $Y" [*] Building AUR Packages - "$C
-echo
-
-for PKG in ${PACKAGES[@]}; do
-    echo -e $Y" [*] Building $PKG - "$C
-    cd $PKG && makepkg -cfs
-    mv *.pkg.tar.xz ../localrepo/x86_64
-    cd $DIR
-done
-
-echo
-echo -e $G" [*] All Packages Builted Successfully."$C
-echo
-
-## Setting up LocalRepo
-cd $DIR/localrepo/x86_64
-echo -e $Y" [*] Setting Up Local Repository - "$C
-echo
-
-repo-add essentials.db.tar.gz plymouth*.pkg.tar.xz
-#calamares*.pkg.tar.xz
+_config_packages
+_build_packages
+_finish
