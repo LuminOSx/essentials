@@ -1,5 +1,2 @@
-localrepo/
-
-*.tar.gz
-*.tar.xz
-*.tar.zst
+*.old
+plymouth*.tar.gz
