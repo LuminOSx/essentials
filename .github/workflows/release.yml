@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   pre-release:
     # The type of runner that the job will run on
-    name: "Pre Release"
+    name: "Latest Release"
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -30,8 +30,8 @@ jobs:
         with:
           repo_token: "${{  secrets.GITHUB_TOKEN  }}"
           automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
+          prerelease: false
+          title: "Latest Release Build"
           files: |
             LICENSE.txt
             localrepo/x86_64/essentials.files
