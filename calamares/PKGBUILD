@@ -17,6 +17,7 @@ backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/unpackfs.conf')
 
 source=("$pkgname-$pkgver.tar.gz::$url/download/v$pkgver/$pkgname-$pkgver.tar.gz"
+	"calamares.desktop"
 	"49-nopasswd-calamares.rules")
 
 		#"calamares.desktop")
