@@ -34,8 +34,8 @@ jobs:
           title: "Development Build"
           files: |
             LICENSE.txt
-            *.files
-            *.db
-            *.db.tar.gz
-            *.files.tar.gz
-            *.pkg.tar.zst
+            /localrepo/x86_64/essentials.files
+            /localrepo/x86_64/essentials.db
+            /localrepo/x86_64/essentials.db.tar.gz
+            /localrepo/x86_64/essentials.files.tar.gz
+            /localrepo/x86_64/*.pkg.tar.zst
