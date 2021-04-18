@@ -28,7 +28,7 @@ jobs:
       
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          repo_token: "${{  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  }}"
+          repo_token: "${{  secrets.GITHUB_TOKEN  }}"
           automatic_release_tag: "latest"
           prerelease: true
           title: "Development Build"
