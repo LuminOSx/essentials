@@ -24,7 +24,7 @@ source=("$pkgname-$pkgver.tar.gz::$url/download/v$pkgver/$pkgname-$pkgver.tar.gz
 	#"calamares_polkit"
 
 sha256sums=('7e4a10564ca17690534e4661db50799df82a3b3739c619fabbf25c1dd449a0be'
-			'1b942472a06dcaa4a9b8ec2d67dc2ff540093997dd4e0d540a32d30a361bb5e6'
+			'4976af4ac83bfdd46cd3903d87808993ff7a9ece8261bebfe07f2d3e9abc1d6a'
 			'56d85ff6bf860b9559b8c9f997ad9b1002f3fccc782073760eca505e3bddd176')
 
 pkgver() {
