@@ -23,7 +23,8 @@ backup=('etc/plymouth/plymouthd.conf')
 options=('!libtool' '!emptydirs')
 
 source=("https://gitlab.freedesktop.org/${pkgname}/${pkgname}/-/archive/${pkgver}/${pkgname}-${pkgver}.tar.gz"
-       'plymouth.encrypt_hook'
+       'luminos-logo.png'
+	   'plymouth.encrypt_hook'
        'plymouth.encrypt_install'
        'lxdm-plymouth.service'
        'lightdm-plymouth.service'
@@ -40,6 +41,7 @@ source=("https://gitlab.freedesktop.org/${pkgname}/${pkgname}/-/archive/${pkgver
 )
 
 sha256sums=('55a461003ece0a4daeffb8b7ac2178977c5ce024a7e688d24f6d2230465b50ba'
+			'20d86f15c470c7da66707c8f13c04b5bb223ddbd5b40a498b01f722954d85e5d'
             '7afa97d21444cbac7a6213edda09d9fa73ecbef1a6cea1e745f56669760c6120'
             '373ec20fe4c47e693a0c45cc06dd906e35dd1d70a85546bd1d571391de11763a'
             '06b31999cf60f49e536c7a12bc1c4f75f2671feb848bf5ccb91a963147e2680d'
@@ -79,7 +81,7 @@ build() {
 		--enable-pango \
 		--enable-gtk=no \
 		--with-release-file=/etc/os-release \
-		--with-logo=/usr/share/plymouth/arch-logo.png \
+		--with-logo=/usr/share/plymouth/luminos-logo.png \
 		--with-background-color=0x000000 \
 		--with-background-start-color-stop=0x000000 \
 		--with-background-end-color-stop=0x4D4D4D \
@@ -95,7 +97,7 @@ package() {
 
 	make DESTDIR="$pkgdir" install
 
-	#install -Dm644 "$srcdir/arch-logo.png" "$pkgdir/usr/share/plymouth/arch-logo.png"
+	install -Dm644 "$srcdir/luminos-logo.png" "$pkgdir/usr/share/plymouth/luminos-logo.png"
 
 	install -Dm644 "$srcdir/plymouth.encrypt_hook" "$pkgdir/usr/lib/initcpio/hooks/plymouth-encrypt"
 	install -Dm644 "$srcdir/plymouth.encrypt_install" "$pkgdir/usr/lib/initcpio/install/plymouth-encrypt"
