@@ -1,5 +1,6 @@
  
 pkgname=orchiis
+_pkgname=Orchiis
 pkgver=0.1.0
 pkgrel=1
 pkgdesc="Orchiis Theme for Plasma"
@@ -18,17 +19,17 @@ prepare() {
 
 package() {
    mkdir -p ${pkgdir}/usr/share/aurorae/themes/Orchiis
-   cp -r  ${srcdir}/${pkgname}/aurorae/* ${pkgdir}/usr/share/aurorae/themes
+   cp -r  ${srcdir}/${pkgname}/aurorae/* ${pkgdir}/usr/share/aurorae/
 
-   mkdir -p ${pkgdir}/usr/share/color-schemes
-   cp -r ${srcdir}/${pkgname}/color-schemes ${pkgdir}/usr/share
+   mkdir -p ${pkgdir}/usr/share/color-schemes/
+   cp -r ${srcdir}/${pkgname}/color-schemes/ ${pkgdir}/usr/share/color-schemes/
 
-   mkdir -p ${pkgdir}/usr/share/plasma/desktoptheme/Orchiis
-   cp -r ${srcdir}/${pkgname}/plasma/desktoptheme ${pkgdir}/usr/share/plasma
+   mkdir -p ${pkgdir}/usr/share/plasma/desktoptheme/${_pkgname}
+   cp -r ${srcdir}/${pkgname}/plasma/desktoptheme/${_pkgname} ${pkgdir}/usr/share/plasma/desktoptheme/${_pkgname}
 
-   mkdir -p ${pkgdir}/usr/share/plasma/look-and-feel/Orchiis
-   cp -r ${srcdir}/${pkgname}/plasma/look-and-feel/ ${pkgdir}/usr/share/plasma
+   mkdir -p ${pkgdir}/usr/share/plasma/look-and-feel/${_pkgname}
+   cp -r ${srcdir}/${pkgname}/plasma/look-and-feel/${_pkgname} ${pkgdir}/usr/share/plasma/look-and-feel/${_pkgname}
 
-   mkdir -p ${pkgdir}/usr/share/sddm/themes/Orchiis
-   cp -r ${srcdir}/${pkgname}/sddm/themes ${pkgdir}/usr/share/sddm/themes
+   mkdir -p ${pkgdir}/usr/share/sddm/themes/${_pkgname}
+   cp -r ${srcdir}/${pkgname}/sddm/themes/${_pkgname} ${pkgdir}/usr/share/sddm/themes/${_pkgname}
 }
