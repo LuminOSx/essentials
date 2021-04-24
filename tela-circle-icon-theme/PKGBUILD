@@ -1,0 +1,18 @@
+pkgname=tela-circle-icon-theme
+_pkgver=2020-11-29
+pkgver=${_pkgver//-/.}
+pkgrel=1
+pkgdesc="A flat colorful design icon theme."
+arch=('any')
+url="https://github.com/vinceliuice/Tela-circle-icon-theme"
+license=('GPL3')
+depends=('hicolor-icon-theme' 'gtk-update-icon-cache')
+options=('!strip')
+source=("$pkgname-$_pkgver.tar.gz::https://github.com/vinceliuice/Tela-circle-icon-theme/archive/$_pkgver.tar.gz")
+sha256sums=('SKIP')
+
+package() {
+	cd "Tela-circle-icon-theme-$_pkgver"
+	install -d "$pkgdir/usr/share/icons"
+	./install.sh -a -d "$pkgdir/usr/share/icons"
+}
