@@ -14,5 +14,5 @@ sha256sums=('SKIP')
 package() {
 	cd "Tela-circle-icon-theme-$_pkgver"
 	install -d "$pkgdir/usr/share/icons"
-	./install.sh -a -d "$pkgdir/usr/share/icons"
+	./install.sh -d "$pkgdir/usr/share/icons"
 }
