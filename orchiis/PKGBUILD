@@ -1,0 +1,21 @@
+ 
+pkgname=orchiis
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Orchiis Theme for Plasma"
+arch=('any')
+url="https://github.com/LuminOSx/orchiis"
+license=('GPL3')
+depends=('plasma-desktop')
+optdepends=('qt5-graphicaleffects' 'qt5-svg' 'qt5-quickcontrols2' 'libappindicator-gtk3')
+makedepends=('git')
+source=("git+${url}.git")
+sha256sums=('SKIP')
+
+pkgver() {
+   cd ${pkgname}
+}
+
+package() {
+   sudo make install
+}
