@@ -17,5 +17,18 @@ pkgver() {
 }
 
 package() {
-   sudo make install
+   mkdir -p ${pkgdir}/usr/share/aurorae/themes/Orchiis
+   cp -r  ${srcdir}/${pkgname}/aurorae/* ${pkgdir}/usr/share/aurorae/themes
+
+   mkdir -p ${pkgdir}/usr/share/color-schemes
+   cp -r ${srcdir}/${pkgname}/color-schemes ${pkgdir}/usr/share
+
+   mkdir -p ${pkgdir}/usr/share/plasma/desktoptheme/Orchiis
+   cp -r ${srcdir}/${pkgname}/plasma/desktoptheme ${pkgdir}/usr/share/plasma
+
+   mkdir -p ${pkgdir}/usr/share/plasma/look-and-feel/Orchiis
+   cp -r ${srcdir}/${pkgname}/plasma/look-and-feel/ ${pkgdir}/usr/share/plasma
+
+   mkdir -p ${pkgdir}/usr/share/sddm/themes/Orchiis
+   cp -r ${srcdir}/${pkgname}/sddm/McMojave ${pkgdir}/usr/share/sddm/themes
 }
