@@ -13,7 +13,7 @@ source=("git+${url}.git")
 sha256sums=('SKIP')
 
 prepare() {
-   cd ${pkgname}
+   cd ${srcdir}/${pkgname}
 }
 
 package() {
@@ -30,5 +30,5 @@ package() {
    cp -r ${srcdir}/${pkgname}/plasma/look-and-feel/ ${pkgdir}/usr/share/plasma
 
    mkdir -p ${pkgdir}/usr/share/sddm/themes/Orchiis
-   cp -r ${srcdir}/${pkgname}/sddm/Orchiis ${pkgdir}/usr/share/sddm/themes
+   cp -r ${srcdir}/${pkgname}/sddm/themes ${pkgdir}/usr/share/sddm/themes
 }
