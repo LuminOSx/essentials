@@ -13,11 +13,8 @@ makedepends=('git')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
-prepare() {
-   cd ${srcdir}/${pkgname}
-}
-
 package() {
+   cd ${pkgname}
    mkdir -p ${pkgdir}/usr/share/aurorae/themes/Orchiis
    cp -r  ${srcdir}/${pkgname}/aurorae/* ${pkgdir}/usr/share/aurorae/
 
@@ -32,4 +29,8 @@ package() {
 
    mkdir -p ${pkgdir}/usr/share/sddm/themes/${_pkgname}
    cp -r ${srcdir}/${pkgname}/sddm/themes/* ${pkgdir}/usr/share/sddm/themes/
+
+   mkdir -p ${pkgdir}/usr/share/icons/${_pkgname}
+   mkdir -p ${pkgdir}/usr/share/icons/${_pkgname}Dark
+   cp -r ${srcdir}/${pkgname}/icons/* ${pkgdir}/usr/share/icons/
 }
