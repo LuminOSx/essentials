@@ -10,16 +10,16 @@
 base_path="$( cd "$( dirname "$0" )" && pwd )"
 arch=('i686' 'x86_64')
 packages=('plymouth' 'calamares' 'orchiis' 'tela-circle-icon-theme')
+pkg_builds=('orchiis' 'tela-circle-icon-theme')
 
 _config_packages() {
     mkdir -p "${base_path}/localrepo/i686 ${base_path}/localrepo/x86_64"
 }
 
 _build_packages() {
-    for pkg in "${packages[@]}"; do
+    for pkg in "${pkg_builds[@]}"; do
         echo -e "[build.sh] building ${pkg} "
         cd "${base_path}/${pkg}" 
-        #&& makepkg -cfs"
         makepkg -cfs
         mv *.pkg.tar.zst ../localrepo/x86_64
     done
