@@ -9,8 +9,8 @@
 
 base_path="$( cd "$( dirname "$0" )" && pwd )"
 arch=('i686' 'x86_64')
-packages=('plymouth' 'calamares' 'orchiis' 'tela-circle-icon-theme')
-pkg_builds=('orchiis' 'tela-circle-icon-theme')
+packages=('plymouth' 'calamares' 'orchiis')
+pkg_builds=('orchiis')
 
 _config_packages() {
     mkdir -p "${base_path}/localrepo/i686 ${base_path}/localrepo/x86_64"
