@@ -1,4 +1,3 @@
 *.old
-plymouth*.tar.gz
-calamares*.tar.gz
+/*/*.tar.gz
 /*/src
