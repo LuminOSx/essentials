@@ -15,22 +15,5 @@ sha256sums=('SKIP')
 
 package() {
    cd ${pkgname}
-   mkdir -p ${pkgdir}/usr/share/aurorae/themes/Orchiis
-   cp -r  ${srcdir}/${pkgname}/aurorae/* ${pkgdir}/usr/share/aurorae/
-
-   mkdir -p ${pkgdir}/usr/share/color-schemes/
-   cp -r ${srcdir}/${pkgname}/color-schemes/* ${pkgdir}/usr/share/color-schemes/
-
-   mkdir -p ${pkgdir}/usr/share/plasma/desktoptheme/${_pkgname}
-   cp -r ${srcdir}/${pkgname}/plasma/desktoptheme/* ${pkgdir}/usr/share/plasma/desktoptheme/
-
-   mkdir -p ${pkgdir}/usr/share/plasma/look-and-feel/${_pkgname}
-   cp -r ${srcdir}/${pkgname}/plasma/look-and-feel/* ${pkgdir}/usr/share/plasma/look-and-feel/
-
-   mkdir -p ${pkgdir}/usr/share/sddm/themes/${_pkgname}
-   cp -r ${srcdir}/${pkgname}/sddm/themes/* ${pkgdir}/usr/share/sddm/themes/
-
-   mkdir -p ${pkgdir}/usr/share/icons/${_pkgname}
-   mkdir -p ${pkgdir}/usr/share/icons/${_pkgname}Dark
-   cp -r ${srcdir}/${pkgname}/icons/* ${pkgdir}/usr/share/icons/
+   make install DESTDIR=${pkgdir}
 }
