@@ -1,7 +1,6 @@
  
 pkgname=orchiis
-_pkgname=Orchiis
-pkgver=0.1.0
+pkgver=2021.05.15
 pkgrel=1
 pkgdesc="Orchiis Theme for Plasma"
 arch=('any')
@@ -12,6 +11,7 @@ optdepends=('qt5-graphicaleffects' 'qt5-svg' 'qt5-quickcontrols2' 'libappindicat
 makedepends=('git')
 source=("git+${url}.git")
 sha256sums=('SKIP')
+
 
 package() {
    cd ${pkgname}
