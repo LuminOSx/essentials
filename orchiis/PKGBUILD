@@ -1,6 +1,6 @@
  
 pkgname=orchiis
-pkgver=2021.05.15
+pkgver=2021.05.25
 pkgrel=1
 pkgdesc="Orchiis Theme for Plasma"
 arch=('any')
