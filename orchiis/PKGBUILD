@@ -1,20 +1,20 @@
  
 pkgname=orchiis
-pkgver=2021.05.25
+pkgver=2021.06.18
 pkgrel=1
-pkgdesc="Orchiis Theme for Plasma"
+pkgdesc="Orchiis Theme for KDE Plasma"
 arch=('any')
 url="https://github.com/LuminOSx/orchiis"
 license=('GPL3')
 depends=('plasma-desktop')
 optdepends=('qt5-graphicaleffects' 'qt5-svg' 'qt5-quickcontrols2' 'libappindicator-gtk3')
-makedepends=('git')
-source=("git+${url}.git")
+#makedepends=('git')
+#source=("git+${url}.git")
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('SKIP')
 
 
 package() {
-   cd ${pkgname}
+   cd ${pkgname}-${pkgver}
    make install DESTDIR=${pkgdir}
-   
 }
