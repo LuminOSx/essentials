@@ -10,10 +10,12 @@
 base_path="$( cd "$( dirname "$0" )" && pwd )"
 arch=('i686' 'x86_64')
 packages=('plymouth' 'calamares' 'orchiis')
-pkg_builds=('calamares')
+pkg_builds=('plymouth' 'calamares' 'orchiis')
 
 _config_packages() {
-    mkdir -p "${base_path}/localrepo/i686 ${base_path}/localrepo/x86_64"
+    for _arch in "${arch[@]}"; do
+        mkdir -p "${base_path}/localrepo/${_arch}"
+    done
 }
 
 _build_packages() {
