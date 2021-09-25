@@ -7,10 +7,10 @@ arch=('any')
 url="https://github.com/LuminOSx/orchiis"
 license=('GPL3')
 depends=('plasma-desktop')
-optdepends=('qt5-graphicaleffects' 'qt5-svg' 'qt5-quickcontrols2' 'libappindicator-gtk3')
-#makedepends=('git')
-#source=("git+${url}.git")
-source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
+optdepends=('libappindicator-gtk3')
+makedepends=('git' 'refind' 'plymouth')
+source=("${pkgname}-${pkgver}::git+${url}.git")
+#source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('SKIP')
 
 
