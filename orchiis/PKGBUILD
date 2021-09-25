@@ -1,6 +1,6 @@
  
 pkgname=orchiis
-pkgver=2021.06.18
+pkgver=2021.09.25
 pkgrel=1
 pkgdesc="Orchiis Theme for KDE Plasma"
 arch=('any')
